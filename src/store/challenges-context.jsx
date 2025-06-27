@@ -1,4 +1,29 @@
-import { createContext, useState } from 'react';
+import { createContext, useState } from "react";
+
+const PLACEHOLDER_CHALLANGES = [
+  {
+    title: "Test Challange 1",
+    description: "Test Text",
+    status: "active",
+    id: 123123123,
+    deadline: "2025-02-06",
+    image: {
+      src: "/src/assets/playing-guitar.png",
+      alt: "Person playing the guitar.",
+    },
+  },
+  {
+    title: "RAAAAHHHH",
+    description: "Lorem ipsum!!!!",
+    status: "completed",
+    id: 53231123,
+    deadline: "2025-08-06",
+    image: {
+      src: "/src/assets/cooking.png",
+      alt: "idk vro.",
+    },
+  },
+];
 
 export const ChallengesContext = createContext({
   challenges: [],
@@ -7,11 +32,11 @@ export const ChallengesContext = createContext({
 });
 
 export default function ChallengesContextProvider({ children }) {
-  const [challenges, setChallenges] = useState([]);
+  const [challenges, setChallenges] = useState(PLACEHOLDER_CHALLANGES);
 
   function addChallenge(challenge) {
     setChallenges((prevChallenges) => [
-      { ...challenge, id: Math.random().toString(), status: 'active' },
+      { ...challenge, id: Math.random().toString(), status: "active" },
       ...prevChallenges,
     ]);
   }
