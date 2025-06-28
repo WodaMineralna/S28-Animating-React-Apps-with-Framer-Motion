@@ -52,11 +52,11 @@ body {
 }
 
 #hero-image {
-  width: 20rem;
+  width: 32.5rem;
   max-width: 40%;
   position: absolute;
-  bottom: 10%;
-  left: 25%;
+  bottom: 25%;
+  left: 25.75%;
   object-fit: cover;
   filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.5));
 }
@@ -280,12 +280,12 @@ main {
   display: inline-block;
   font-size: 0.85rem;
   margin-left: 0.25rem;
-  transition: transform 0.4s ease-out;
+  /* transition: transform 0.4s ease-out; */
 }
 
-.challenge-item-details.expanded .challenge-item-details-icon {
+/* .challenge-item-details.expanded .challenge-item-details-icon {
   transform: rotate(180deg);
-}
+} */
 
 .challenge-item-description {
   margin: 0;
@@ -314,10 +314,10 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  animation: slide-up-fade-in 0.4s ease-out forwards;
+  /* animation: slide-up-fade-in 0.4s ease-out forwards; */
 }
 
-@keyframes slide-up-fade-in {
+/* @keyframes slide-up-fade-in {
   0% {
     transform: translateY(30px);
     opacity: 0;
@@ -327,7 +327,7 @@ main {
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */
 
 .modal h2 {
   margin-top: 0;
