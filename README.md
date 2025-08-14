@@ -1,8 +1,28 @@
-# React + Vite
+# React.js Course - S28 Animating React Apps (with Framer Motion)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Practice code for Section 28 - Animating React Apps (with Framer Motion), part of the course "React - The Complete Guide (incl. Redux)" by Maximilian Schwarzmüller.
 
-Currently, two official plugins are available:
+This project covers
+- Motion components and transitions
+- Micro interactions with Framer Motion
+Project type
+- Based on a guided project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- JavaScript (ES6+)
+- Build tool - Vite
+- Framer Motion
+## How to Run
+
+```bash
+# 1) install
+npm install
+
+# 2) dev server
+npm run dev
+
+# 3) production build
+npm run build
+npm run preview
+```
