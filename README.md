@@ -2,11 +2,12 @@
 
 Practice code for Section 28 - Animating React Apps (with Framer Motion), part of the course "React - The Complete Guide (incl. Redux)" by Maximilian Schwarzmüller.
 
-This project covers
+This project covers:
 - Motion components and transitions
 - Micro interactions with Framer Motion
-Project type
-- Based on a guided project
+  
+# Project type
+Implemented as part of a guided course project, with additional features and customizations added independently.
 
 ## Tech Stack
 - React
